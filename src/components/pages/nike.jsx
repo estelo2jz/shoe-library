@@ -26,7 +26,7 @@ class Nike extends Component {
       <div className="content-container">
         <div className="content-box">
           <div className="content-header">
-            <h1>Nike's Storage</h1>
+            <h1>Nike's Best Selling Storage</h1>
             <p>Click for more info.</p>
           </div>
             <Link className="content-jordan" to="/jordan">Jordan's</Link>
