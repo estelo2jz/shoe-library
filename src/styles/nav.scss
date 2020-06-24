@@ -1,0 +1,19 @@
+.nav-container {
+  background: radial-gradient(rgb(207, 57, 57), rgb(78, 78, 6));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    padding: 10px;
+  }
+}
+
+.nav-links {
+  font-size: 3rem;
+  font-family: "Lobster", sans-serif;
+  color: white;
+  font-weight: 600;
+  padding: 20px;
+  text-decoration: none;
+
+}

@@ -1,0 +1,45 @@
+.content-container {
+  height: 90vh;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.content-header {
+  padding: 10px;
+}
+
+.content-header h1 {
+  font-size: 3rem;
+}
+
+.cards {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(450px, 2fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 20px;
+}
+
+.cards .card img {
+  width: 300px;
+  height: 300px;
+}
+/*# sourceMappingURL=content.css.map */

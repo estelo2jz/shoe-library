@@ -1,0 +1,22 @@
+.nav-container {
+  background: radial-gradient(#cf3939, #4e4e06);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-links {
+  font-size: 3rem;
+  font-family: "Lobster", sans-serif;
+  color: white;
+  font-weight: 600;
+  padding: 20px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=nav.css.map */
