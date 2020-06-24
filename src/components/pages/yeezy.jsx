@@ -14,9 +14,11 @@ class Yeezy extends Component {
   render() {
     return (
       <div className="content-container">
-        <div className="content-header">
-          <h1>Adidas Yeezy's Storage</h1>
-          <p>Click for more info.</p>
+        <div className="content-box">
+          <div className="content-header">
+            <h1>Adidas Yeezy's Storage</h1>
+            <p>Click for more info.</p>
+          </div>
         </div>
         <div className="cards">
           <div className="card">
